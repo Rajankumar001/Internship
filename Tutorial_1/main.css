@@ -1,0 +1,22 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#gradient-box {
+    width: 100vh;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+     background: linear-gradient(to right, red, yellow); 
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
